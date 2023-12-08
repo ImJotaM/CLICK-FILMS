@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Five Nights at Freddy's - O Pesadelo Sem Fim</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="GeneralStyle.css">
+    </head>
+    <body>
+        <header>
+            <div class="header_left">
+                <a href="../index.html"><div class="logo_bg"></div></a>
+                <div class="logo_header">
+                    <img src="IMG/filmes (5).png" alt="" class="img_logo">
+                </div>
+            </div>
+            <div class="header_right">
+                <div class="navigation_h">
+                    <a href="">Filmes</a>
+                    <a href="">Series</a>
+                    <a href="pg004.html">Minha Lista</a>
+                    <a href="">Populares</a>
+                </div>
+                <input type="text" class="pesquisa" id="n_pesquisa" onkeyup="search()" required>
+                <label for="n_pesquisa" class="l_pesquisar">Pesquisar</label>
+                <img src="IMG/lupa.png" alt="" class="lupa">
+                <div class="words" id="words_id">
+                    <ul id="lista"></ul>
+                </div>
+                <div class="menu_h" onclick="openMenu()">
+                    <img src="IMG/MENU.png" alt="" class="img_menu">
+                </div>
+            </div>
+        </header>
+        <div class="menu">
+            <div class="sidebar_m"></div>
+            <ul class="list_menu">
+                <li><a href="../index.html"><img src="IMG/botao-de-inicio (1).png" alt="" class="tamanho_img"></a><a href="../index.html">Ínicio</a></li>
+                <li><a href="#n_pesquisa"><img src="IMG/lupa (2).png" alt="" class="tamanho_img"></a><a href="">Pesquisar</a></li>
+                <li><a href=""><img src="IMG/perfil.png" alt="" class="tamanho_img"></a><a href="">Contas</a></li>
+                <li><a href=""><img src="IMG/engrenagem (1).png" alt="" class="tamanho_img"></a><a href="">Configurações</a></li>
+                <li><a href=""><img src="IMG/sair (1).png" alt="" class="tamanho_img"></a><a href="">Sair</a></li>
+            </ul>
+        </div>
+
+        <div class="parte_superior">
+            <h1>Five Nights at Freddy's - O Pesadelo Sem Fim</h1>
+            <p>2023 | Terror/Mistério | <img src="IMG/14.png" alt=""></p>
+            <p>Duração: <span>1h 49m</span></p>
+            <div class="avaliacao"><h1>93%</h1><p>de aprovação</p></div>
+            <div class="favorito">
+                <img src="IMG/estrela (2).png" alt="">
+                <p>Adicionado aos favoritos!</p>
+            </div>
+        </div>
+
+        <div class="main">
+            <img src="IMG/poster 2.jpg" alt="">
+            <h3>Sinopse e Detalhes</h3>
+            <p id="sem_negrito">No Freddy Fazbear's Pizza, robôs animados fazem a festa das crianças durante o dia. Mas, quando chega a noite, eles se transformam em assassinos psicopatas.</p>
+            <br>
+            <p>Data de lançamento: <span>26 de outubro de 2023 (Brasil)</span></p>
+            <p>Diretora: <span>Emma Tammi</span></p>
+            <p>Adaptação de: <span>Five Nights at Freddy’s</span></p>
+            <p>Produção: <span>Scott Cawthon, Jason Blum</span></p>
+            <p>Roteiro: <span>Scott Cawthon, Emma Tammi, Seth Cuddeback</span></p>
+            <p>Orçamento: <span>20 milhões USD</span></p>
+        </div>
+
+        <script src="General.js" async defer></script>
+    </body>
+</html>

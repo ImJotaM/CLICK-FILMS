@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Click Films</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="Style.css">
+</head>
+
+<body>
+    <header>
+        <div class="header_left">
+            <div class="logo_bg"></div>
+            <div class="logo_header">
+                <img src="IMG/filmes (5).png" alt="" class="img_logo">
+            </div>
+        </div>
+        <div class="header_right">
+            <div class="navigation_h">
+                <a href="">Filmes</a>
+                <a href="">Series</a>
+                <a href="Pages/pg004.html">Minha Lista</a>
+                <a href="">Populares</a>
+            </div>
+            <input type="text" class="pesquisa" id="n_pesquisa" onkeyup="search()" required>
+            <label for="n_pesquisa" class="l_pesquisar">Pesquisar</label>
+            <img src="IMG/lupa.png" alt="" class="lupa">
+            <div class="words" id="words_id">
+                <ul id="lista"></ul>
+            </div>
+            <div class="menu_h" onclick="openMenu()">
+                <img src="IMG/MENU.png" alt="" class="img_menu">
+            </div>
+        </div>
+    </header>
+    <div class="menu">
+        <div class="sidebar_m"></div>
+        <ul class="list_menu">
+            <li><a href="../index.html"><img src="IMG/botao-de-inicio (1).png" alt="" class="tamanho_img"></a><a href="../index.html">Ínicio</a></li>
+                <li><a href="#n_pesquisa"><img src="IMG/lupa (2).png" alt="" class="tamanho_img"></a><a href="">Pesquisar</a></li>
+                <li><a href=""><img src="IMG/perfil.png" alt="" class="tamanho_img"></a><a href="">Contas</a></li>
+                <li><a href=""><img src="IMG/engrenagem (1).png" alt="" class="tamanho_img"></a><a href="">Configurações</a></li>
+                <li><a href=""><img src="IMG/sair (1).png" alt="" class="tamanho_img"></a><a href="">Sair</a></li>
+        </ul>
+    </div>
+    <div class="main">
+        <div class="Painel">
+            <h1>Click Films</h1>
+            <p>O melhor site para encontrar onde assistir suas series e filmes favoritos!</p>
+            <div class="topicos">
+                <a href="" id="caixa1">
+                    <img src="IMG/catalogo.png" alt="" id="a_img1">
+                    Catálogo
+                </a>
+                <a href="" id="caixa2">
+                    <img src="IMG/recomendado.png" alt="" id="a_img2">
+                    Recomendados
+                </a>
+                <a href="" id="caixa3">
+                    <img src="IMG/topico-em-alta.png" alt="" id="a_img3">
+                    Em alta
+                </a>
+            </div>
+        </div>
+        <div class="shadow"></div>
+        <div class="bg_img">
+            <img src="IMG/FILME 1.webp" alt="" id="Filme">
+        </div>
+        <div class="filme_1">
+            <a href="Pages/pg001.html">
+                <img src="IMG/FILME 1.webp" alt="">
+            </a>
+        </div>
+        <div class="filme_2">
+            <a href="Pages/pg002.html"><img src="IMG/FILME 2.jpg" alt=""></a>
+        </div>
+        <div class="filme_3">
+            <a href="Pages/pg003.html"><img src="IMG/FILME 3.jpeg" alt=""></a>
+        </div>
+        <p id="nome_1">Velozes e Furiosos 10</p>
+        <p id="nome_2">Five Nights at Freddy's: O pesadelo sem fim</p>
+        <p id="anome_3">Homem-Aranha:</p>
+        <p id="bnome_3">Sem volta para casa</p>
+    </div>
+    <script src="list.js" async defer></script>
+    <script src="Config.js" async defer></script>
+</body>
+
+</html>
